@@ -5,6 +5,10 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #040204;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+
 	font-family: 'Comic Sans MS', 'Comic Sans', cursive;
 }
 
@@ -42,3 +46,21 @@ button:hover {
 	background-color: #FF0000;
 }
 
+/* игорь */
+
+.photo {
+    max-width: 200px;
+}
+
+.large-font {
+    font-size: xx-large;
+    color: aliceblue;
+} 
+.wrapper{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
