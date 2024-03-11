@@ -64,3 +64,8 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 400px) {
+    .wrapper{  
+    flex-wrap: wrap;
+}
+}
